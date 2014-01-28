@@ -4,5 +4,15 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
+	
 		
+	<bean id="dataSource" name="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="username" value="root"></property>
+		<property name="password" value="vilu7240"></property>
+		<property name="driverClassName"><value>com.mysql.jdbc.Driver</value></property>
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/mmasgis">
+		</property>
+	</bean>
 </beans>

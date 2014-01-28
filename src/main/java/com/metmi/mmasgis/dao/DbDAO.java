@@ -1,9 +1,11 @@
 package com.metmi.mmasgis.dao;
 
-import java.util.List;
+import java.util.ArrayList;
+
+import com.metmi.mmasgis.model.Db;
 
 public interface DbDAO {
 
-	List<DbDAO> getDatabases();
+	ArrayList<Db> getDatabases();
 
 }

@@ -128,9 +128,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>springframework</groupId>
+			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
-			<version>1.0-m4</version>
+			<version>${spring.version}</version>
 		</dependency>
 	</dependencies>
     <build>
