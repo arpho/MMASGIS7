@@ -26,8 +26,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/home/arpho/programmi/java/junit-4.7.jar.zip"/>
-	<classpathentry kind="lib" path="/home/arpho/programmi/java/spring/spring-core-3.1.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="/home/arpho/programmi/java/spring/spring-jdbc-3.1.1.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/home/arpho/programmi/java/mysql/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="/home/arpho/programmi/spring/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="/home/arpho/programmi/spring/spring-core-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/arpho/programmi/spring/spring-jdbc-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/arpho/programmi/spring/spring-tx-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/arpho/programmi/spring/spring-security-crypto-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/arpho/programmi/spring/spring-security-config-3.1.1.RELEASE.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
